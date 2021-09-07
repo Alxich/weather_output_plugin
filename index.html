@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>SPECIAL PLUGIN WEATHER</title>
+</head>
+<body>
+   <!--  WEATHER  -->
+
+   <div class="weather-loader">
+        <div class="container">
+            <div class="day-out">
+                <p class="day"></p>
+            </div>
+            <div class="weather-output-image">
+                <img class="weather-image clear" src="weather-clear.png">
+                <img class="weather-image few_clouds" src="weather-cloudy.png">
+                <img class="weather-image clouds" src="weather-cloudy.png">
+                <img class="weather-image scattered_clouds" src="weather-cloudy.png">
+                <img class="weather-image broken_clouds" src="weather-cloudy.png">
+                <img class="weather-image rain" src="weather-rainy.png">
+                <img class="weather-image thunderstorm" src="weather-rainy.png">
+                <img class="weather-image snow" src="weather-rainy.png">
+                <img class="weather-image mist" src="weather-cloudy.png">
+            </div>
+            <div class="weather-temp">
+                <p class="temp"><span class="day-tmp"></span> / <span class="night-tmp"></span></p>
+            </div>
+            <div class="weather-status">
+                <p class="status"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,40 @@
+.weather-loader {
+    max-width: 170px;
+}
+
+.weather-loader .container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    width: 100%;
+    border: 5px solid #81B9D7;
+    padding: 15px;
+}
+
+.weather-loader .weather-output-image {
+    align-self: center;
+    max-width: 80px;
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.weather-loader .weather-image {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.weather-loader .weather-image.active {
+    display: block;
+}
+
+.weather-loader .weather-temp .temp span::after {
+    content: "\00b0"
+}
+
+.weather-loader p {
+    margin: 0;
+}
