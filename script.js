@@ -2,7 +2,7 @@
 
 // API key
 
-let apiKey = "cdb7591f631267b7004b99fc93f8717e";
+let apiKey = // Write here yout api;
 
 // City id wich it needed
 
